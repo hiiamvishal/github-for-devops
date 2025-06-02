@@ -33,5 +33,18 @@ git push origin main
 To pull changes from repo to local file
 git pull origin main
 
+-------------------------------------------------------------------------------------------------------------------
+
+To check current branch
+git branch
+
+To create a branch
+git branch dev
+
+To switch to a branch
+git switch dev  || or ||  git checkout dev
+
+To check logs - exit using q
+git log --online
 
 

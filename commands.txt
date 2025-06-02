@@ -30,8 +30,8 @@ git remote set-url origin https://<access token>@github.com/<repo-url>
 To push changes to repository
 git push origin main
 
-
-
+To pull changes from repo to local file
+git pull origin main
 
 
 

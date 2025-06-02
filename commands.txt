@@ -1,0 +1,37 @@
+
+FS (file system) - no rollback
+VCS (version control system) - can be rollback
+
+untracked (red colour)(file-system)
+staged (green colour)(to decide where the file should be moved to VSC or file-system)
+tracked(VCS)
+
+To intialize git
+git init
+
+To check system status
+git status
+
+To move file from FS to staged
+git add <filename>
+
+To move file from staged to FS
+git rm --cache <filename>
+
+To add file from staged to VCS
+git commit -m "added testing file"
+
+After removing file locally to retrieve run
+git restore <filename>
+
+To establish a connection
+git remote set-url origin https://<access token>@github.com/<repo-url>
+
+To push changes to repository
+git push origin main
+
+
+
+
+
+

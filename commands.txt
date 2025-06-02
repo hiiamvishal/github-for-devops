@@ -33,6 +33,9 @@ git push origin main
 To pull changes from repo to local file
 git pull origin main
 
+When changes made in local file and we need to push
+git branch -M main
+git push -u origin main
 -------------------------------------------------------------------------------------------------------------------
 
 To check current branch

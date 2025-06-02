@@ -33,5 +33,24 @@ git push origin main
 To pull changes from repo to local file
 git pull origin main
 
+When changes made in local file and we need to push
+git add .
+git commit -m "commit message"
+git branch -M main
+git push -u origin main
+
+-------------------------------------------------------------------------------------------------------------------
+
+To check current branch
+git branch
+
+To create a branch
+git branch dev
+
+To switch to a branch
+git switch dev  || or ||  git checkout dev
+
+To check logs - exit using q
+git log --online
 
 
